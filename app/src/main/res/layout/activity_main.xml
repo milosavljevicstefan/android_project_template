@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tekst"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_marginBottom="12dp"
+        app:srcCompat="@drawable/gfg_logo" />
+
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dugme"
+        android:layout_marginBottom="12dp" />
+
+    <Switch
+        android:id="@+id/mainSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcija"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>
